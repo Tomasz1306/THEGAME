@@ -1,5 +1,4 @@
 import javax.imageio.ImageIO;
-import javax.swing.*;
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
@@ -13,21 +12,21 @@ public class LevelMap {
     private BufferedImage l_level4;
     private BufferedImage l_level5;
 
-    private BufferedImage l_Info1;
-    private BufferedImage l_Info2;
-    private BufferedImage l_Info3;
-    private BufferedImage l_Info4;
-    private BufferedImage l_Info5;
+    private final BufferedImage l_Info1;
+    private final BufferedImage l_Info2;
+    private final BufferedImage l_Info3;
+    private final BufferedImage l_Info4;
+    private final BufferedImage l_Info5;
     private BufferedImage l_Kart1;
     private BufferedImage l_Kart2;
     private BufferedImage l_Kart3;
     private BufferedImage l_Kart4;
     private BufferedImage l_Kart5;
 
-    private BufferedImage l_arrowRed;
-    private BufferedImage l_arrowGreen;
-    private BufferedImage l_arrowBlue;
-    private BufferedImage l_arrowPurple;
+    private final BufferedImage l_arrowRed;
+    private final BufferedImage l_arrowGreen;
+    private final BufferedImage l_arrowBlue;
+    private final BufferedImage l_arrowPurple;
     private BufferedImage l_arrow;
     private int arrowPosX;
     private int arrowPosY;
@@ -44,8 +43,8 @@ public class LevelMap {
 
     private final GameFrame l_frame;
 
-    private BufferedImage l_startGreen;
-    private BufferedImage l_startRed;
+    private final BufferedImage l_startGreen;
+    private final BufferedImage l_startRed;
     private BufferedImage l_startImage;
     private boolean l_start;
 
@@ -240,7 +239,7 @@ public class LevelMap {
             } else {
                 this.l_powrot = this.l_powrotRed;
             }
-            if(this.l_start == true){
+            if(this.l_start){
                 if(x >= 270 && x <= (270 + 400) && y > 170 && y <= (170 + 100)){
                     this.l_startImage = this.l_startGreen;
                     if (mouseClicked) {
@@ -249,8 +248,6 @@ public class LevelMap {
                 }else{
                     this.l_startImage = this.l_startRed;
                 }
-            }else{
-
             }
         }
     }

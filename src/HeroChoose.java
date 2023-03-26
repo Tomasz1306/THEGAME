@@ -29,17 +29,17 @@ public class HeroChoose {
     HeroChoose(GameFrame frame) throws IOException {
 
         this.h_frame = frame;
-        this.h_background = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\THEGAME\\rsc\\HeroCardMenu\\SpaceBackground.png"));
-        this.h_hero11 = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\THEGAME\\rsc\\HeroCardMenu\\Hero1.png"));
-        this.h_hero21 = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\THEGAME\\rsc\\HeroCardMenu\\Hero2.png"));
-        this.h_hero31 = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\THEGAME\\rsc\\HeroCardMenu\\Hero3.png"));
-        this.h_hero41 = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\THEGAME\\rsc\\HeroCardMenu\\Hero4.png"));
-        this.h_hero12 = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\THEGAME\\rsc\\HeroCardMenu\\Hero12.png"));
-        this.h_hero22 = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\THEGAME\\rsc\\HeroCardMenu\\Hero22.png"));
-        this.h_hero32 = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\THEGAME\\rsc\\HeroCardMenu\\Hero32.png"));
-        this.h_hero42 = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\THEGAME\\rsc\\HeroCardMenu\\Hero42.png"));
-        this.h_powrotGreen = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\THEGAME\\rsc\\HeroCardMenu\\BackGreen.png"));
-        this.h_powrotRed = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\THEGAME\\rsc\\HeroCardMenu\\BackRed.png"));
+        this.h_background = ImageIO.read(new File("rsc\\HeroCardMenu\\SpaceBackground.png"));
+        this.h_hero11 = ImageIO.read(new File("rsc\\HeroCardMenu\\Hero1.png"));
+        this.h_hero21 = ImageIO.read(new File("rsc\\HeroCardMenu\\Hero2.png"));
+        this.h_hero31 = ImageIO.read(new File("rsc\\HeroCardMenu\\Hero3.png"));
+        this.h_hero41 = ImageIO.read(new File("rsc\\HeroCardMenu\\Hero4.png"));
+        this.h_hero12 = ImageIO.read(new File("rsc\\HeroCardMenu\\Hero12.png"));
+        this.h_hero22 = ImageIO.read(new File("rsc\\HeroCardMenu\\Hero22.png"));
+        this.h_hero32 = ImageIO.read(new File("rsc\\HeroCardMenu\\Hero32.png"));
+        this.h_hero42 = ImageIO.read(new File("rsc\\HeroCardMenu\\Hero42.png"));
+        this.h_powrotGreen = ImageIO.read(new File("rsc\\HeroCardMenu\\BackGreen.png"));
+        this.h_powrotRed = ImageIO.read(new File("rsc\\HeroCardMenu\\BackRed.png"));
 
         this.h_hero1 = this.h_hero11;
         this.h_hero2 = this.h_hero21;

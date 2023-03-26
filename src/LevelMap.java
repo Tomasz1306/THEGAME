@@ -54,37 +54,37 @@ public class LevelMap {
         this.arrowPosY = 200;
         this.l_start = false;
 
-        this.l_background = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\THEGAME\\rsc\\LevelMap\\Background.png"));
-        this.l_level1 = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\THEGAME\\rsc\\LevelMap\\blue.png"));
-        this.l_level2 = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\THEGAME\\rsc\\LevelMap\\blue.png"));
-        this.l_level3 = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\THEGAME\\rsc\\LevelMap\\blue.png"));
-        this.l_level4 = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\THEGAME\\rsc\\LevelMap\\blue.png"));
-        this.l_level5 = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\THEGAME\\rsc\\LevelMap\\blue.png"));
-        this.l_Info1 = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\Karty Info Levele\\KartaInfo1Bialy.png"));
-        this.l_Info2 = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\Karty Info Levele\\KartaInfo2Bialy.png"));
-        this.l_Info3 = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\Karty Info Levele\\KartaInfo3Bialy.png"));
-        this.l_Info4 = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\Karty Info Levele\\KartaInfo4Bialy.png"));
-        this.l_Info5 = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\Karty Info Levele\\KartaInfo5Bialy.png"));
-        this.l_nothing = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\THEGAME\\rsc\\LevelMap\\Nothing.png"));
-        this.l_Kart1 = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\THEGAME\\rsc\\LevelMap\\Nothing.png"));
-        this.l_Kart2 = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\THEGAME\\rsc\\LevelMap\\Nothing.png"));
-        this.l_Kart3 = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\THEGAME\\rsc\\LevelMap\\Nothing.png"));
-        this.l_Kart4 = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\THEGAME\\rsc\\LevelMap\\Nothing.png"));
-        this.l_Kart5 = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\THEGAME\\rsc\\LevelMap\\Nothing.png"));
+        this.l_background = ImageIO.read(new File("rsc\\LevelMap\\Background.png"));
+        this.l_level1 = ImageIO.read(new File("rsc\\LevelMap\\blue.png"));
+        this.l_level2 = ImageIO.read(new File("rsc\\LevelMap\\blue.png"));
+        this.l_level3 = ImageIO.read(new File("rsc\\LevelMap\\blue.png"));
+        this.l_level4 = ImageIO.read(new File("rsc\\LevelMap\\blue.png"));
+        this.l_level5 = ImageIO.read(new File("rsc\\LevelMap\\blue.png"));
+        this.l_Info1 = ImageIO.read(new File("rsc\\LevelMap\\KartaInfo1.png"));
+        this.l_Info2 = ImageIO.read(new File("rsc\\LevelMap\\KartaInfo2.png"));
+        this.l_Info3 = ImageIO.read(new File("rsc\\LevelMap\\KartaInfo3.png"));
+        this.l_Info4 = ImageIO.read(new File("rsc\\LevelMap\\KartaInfo4.png"));
+        this.l_Info5 = ImageIO.read(new File("rsc\\LevelMap\\KartaInfo5.png"));
+        this.l_nothing = ImageIO.read(new File("rsc\\LevelMap\\Nothing.png"));
+        this.l_Kart1 = ImageIO.read(new File("rsc\\LevelMap\\Nothing.png"));
+        this.l_Kart2 = ImageIO.read(new File("rsc\\LevelMap\\Nothing.png"));
+        this.l_Kart3 = ImageIO.read(new File("rsc\\LevelMap\\Nothing.png"));
+        this.l_Kart4 = ImageIO.read(new File("rsc\\LevelMap\\Nothing.png"));
+        this.l_Kart5 = ImageIO.read(new File("rsc\\LevelMap\\Nothing.png"));
 
-        this.l_arrowRed = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\THEGAME\\rsc\\LevelMap\\strzalkaRed.png"));
-        this.l_arrowGreen = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\THEGAME\\rsc\\LevelMap\\strzalkaGreen.png"));
-        this.l_arrowBlue = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\THEGAME\\rsc\\LevelMap\\strzalkaBlue.png"));
-        this.l_arrowPurple = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\THEGAME\\rsc\\LevelMap\\strzalkaPurple.png"));
+        this.l_arrowRed =   ImageIO.read(new File("rsc\\LevelMap\\strzalkaRed.png"));
+        this.l_arrowGreen = ImageIO.read(new File("rsc\\LevelMap\\strzalkaGreen.png"));
+        this.l_arrowBlue =  ImageIO.read(new File("rsc\\LevelMap\\strzalkaBlue.png"));
+        this.l_arrowPurple =ImageIO.read(new File("rsc\\LevelMap\\strzalkaPurple.png"));
 
-        this.l_blueLevel = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\THEGAME\\rsc\\LevelMap\\blue.png"));
-        this.l_whiteLevel = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\THEGAME\\rsc\\LevelMap\\white.png"));
+        this.l_blueLevel = ImageIO.read(new File("rsc\\LevelMap\\blue.png"));
+        this.l_whiteLevel = ImageIO.read(new File("rsc\\LevelMap\\white.png"));
 
-        this.l_powrotGreen = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\THEGAME\\rsc\\HeroCardMenu\\BackGreen.png"));
-        this.l_powrotRed = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\THEGAME\\rsc\\HeroCardMenu\\BackRed.png"));
+        this.l_powrotGreen = ImageIO.read(new File("rsc\\HeroCardMenu\\BackGreen.png"));
+        this.l_powrotRed = ImageIO.read(new File("rsc\\HeroCardMenu\\BackRed.png"));
 
-        this.l_startGreen = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\THEGAME\\rsc\\LevelMap\\StartGreen.png"));
-        this.l_startRed = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\THEGAME\\rsc\\LevelMap\\StartRed.png"));
+        this.l_startGreen = ImageIO.read(new File("rsc\\LevelMap\\StartGreen.png"));
+        this.l_startRed = ImageIO.read(new File("rsc\\LevelMap\\StartRed.png"));
 
         this.l_powrot = this.l_powrotRed;
     }

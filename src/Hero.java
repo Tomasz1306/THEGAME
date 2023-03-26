@@ -80,50 +80,50 @@ public class Hero {
         this.h_frame = frame;
         this.h_healt = 100;
         this.h_mana = 10;
-        this.h_Hero1Card1 = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\THEGAME\\rsc\\Hero\\Bohater1Karta1.png"));
-        this.h_Hero1Card2 = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\THEGAME\\rsc\\Hero\\Bohater1Karta1.png"));
-        this.h_Hero1Card3 = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\THEGAME\\rsc\\Hero\\Bohater1Karta1.png"));
-        this.h_Hero1Card4 = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\THEGAME\\rsc\\Hero\\Bohater1Karta1.png"));
+        this.h_Hero1Card1 = ImageIO.read(new File("rsc\\Hero\\Bohater1Karta1.png"));
+        this.h_Hero1Card2 = ImageIO.read(new File("rsc\\Hero\\Bohater1Karta1.png"));
+        this.h_Hero1Card3 = ImageIO.read(new File("rsc\\Hero\\Bohater1Karta1.png"));
+        this.h_Hero1Card4 = ImageIO.read(new File("rsc\\Hero\\Bohater1Karta1.png"));
 
-        this.h_Hero1Card1mala = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\THEGAME\\rsc\\Hero\\Bohater1Karta1mala.png"));
-        this.h_Hero1Card2mala = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\THEGAME\\rsc\\Hero\\Bohater1Karta1mala.png"));
-        this.h_Hero1Card3mala = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\THEGAME\\rsc\\Hero\\Bohater1Karta1mala.png"));
-        this.h_Hero1Card4mala = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\THEGAME\\rsc\\Hero\\Bohater1Karta1mala.png"));
+        this.h_Hero1Card1mala = ImageIO.read(new File("rsc\\Hero\\Bohater1Karta1mala.png"));
+        this.h_Hero1Card2mala = ImageIO.read(new File("rsc\\Hero\\Bohater1Karta1mala.png"));
+        this.h_Hero1Card3mala = ImageIO.read(new File("rsc\\Hero\\Bohater1Karta1mala.png"));
+        this.h_Hero1Card4mala = ImageIO.read(new File("rsc\\Hero\\Bohater1Karta1mala.png"));
 
-        this.h_Hero2Card1 = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\THEGAME\\rsc\\Hero\\Bohater2Karta1.png"));
-        this.h_Hero2Card2 = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\THEGAME\\rsc\\Hero\\Bohater2Karta1.png"));
-        this.h_Hero2Card3 = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\THEGAME\\rsc\\Hero\\Bohater2Karta1.png"));
-        this.h_Hero2Card4 = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\THEGAME\\rsc\\Hero\\Bohater2Karta1.png"));
+        this.h_Hero2Card1 = ImageIO.read(new File("rsc\\Hero\\Bohater2Karta1.png"));
+        this.h_Hero2Card2 = ImageIO.read(new File("rsc\\Hero\\Bohater2Karta1.png"));
+        this.h_Hero2Card3 = ImageIO.read(new File("rsc\\Hero\\Bohater2Karta1.png"));
+        this.h_Hero2Card4 = ImageIO.read(new File("rsc\\Hero\\Bohater2Karta1.png"));
 
-        this.h_Hero2Card1mala = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\THEGAME\\rsc\\Hero\\Bohater2Karta1mala.png"));
-        this.h_Hero2Card2mala = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\THEGAME\\rsc\\Hero\\Bohater2Karta1mala.png"));
-        this.h_Hero2Card3mala = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\THEGAME\\rsc\\Hero\\Bohater2Karta1mala.png"));
-        this.h_Hero2Card4mala = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\THEGAME\\rsc\\Hero\\Bohater2Karta1mala.png"));
+        this.h_Hero2Card1mala = ImageIO.read(new File("rsc\\Hero\\Bohater2Karta1mala.png"));
+        this.h_Hero2Card2mala = ImageIO.read(new File("rsc\\Hero\\Bohater2Karta1mala.png"));
+        this.h_Hero2Card3mala = ImageIO.read(new File("rsc\\Hero\\Bohater2Karta1mala.png"));
+        this.h_Hero2Card4mala = ImageIO.read(new File("rsc\\Hero\\Bohater2Karta1mala.png"));
 
-        this.h_Hero3Card1 = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\THEGAME\\rsc\\Hero\\Bohater3Karta1.png"));
-        this.h_Hero3Card2 = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\THEGAME\\rsc\\Hero\\Bohater3Karta1.png"));
-        this.h_Hero3Card3 = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\THEGAME\\rsc\\Hero\\Bohater3Karta1.png"));
-        this.h_Hero3Card4 = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\THEGAME\\rsc\\Hero\\Bohater3Karta1.png"));
+        this.h_Hero3Card1 = ImageIO.read(new File("rsc\\Hero\\Bohater3Karta1.png"));
+        this.h_Hero3Card2 = ImageIO.read(new File("rsc\\Hero\\Bohater3Karta1.png"));
+        this.h_Hero3Card3 = ImageIO.read(new File("rsc\\Hero\\Bohater3Karta1.png"));
+        this.h_Hero3Card4 = ImageIO.read(new File("rsc\\Hero\\Bohater3Karta1.png"));
 
-        this.h_Hero3Card1mala = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\THEGAME\\rsc\\Hero\\Bohater3Karta1mala.png"));
-        this.h_Hero3Card2mala = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\THEGAME\\rsc\\Hero\\Bohater3Karta1mala.png"));
-        this.h_Hero3Card3mala = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\THEGAME\\rsc\\Hero\\Bohater3Karta1mala.png"));
-        this.h_Hero3Card4mala = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\THEGAME\\rsc\\Hero\\Bohater3Karta1mala.png"));
+        this.h_Hero3Card1mala = ImageIO.read(new File("rsc\\Hero\\Bohater3Karta1mala.png"));
+        this.h_Hero3Card2mala = ImageIO.read(new File("rsc\\Hero\\Bohater3Karta1mala.png"));
+        this.h_Hero3Card3mala = ImageIO.read(new File("rsc\\Hero\\Bohater3Karta1mala.png"));
+        this.h_Hero3Card4mala = ImageIO.read(new File("rsc\\Hero\\Bohater3Karta1mala.png"));
 
-        this.h_Hero4Card1 = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\THEGAME\\rsc\\Hero\\Bohater4Karta1.png"));
-        this.h_Hero4Card2 = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\THEGAME\\rsc\\Hero\\Bohater4Karta1.png"));
-        this.h_Hero4Card3 = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\THEGAME\\rsc\\Hero\\Bohater4Karta1.png"));
-        this.h_Hero4Card4 = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\THEGAME\\rsc\\Hero\\Bohater4Karta1.png"));
+        this.h_Hero4Card1 = ImageIO.read(new File("rsc\\Hero\\Bohater4Karta1.png"));
+        this.h_Hero4Card2 = ImageIO.read(new File("rsc\\Hero\\Bohater4Karta1.png"));
+        this.h_Hero4Card3 = ImageIO.read(new File("rsc\\Hero\\Bohater4Karta1.png"));
+        this.h_Hero4Card4 = ImageIO.read(new File("rsc\\Hero\\Bohater4Karta1.png"));
 
-        this.h_Hero4Card1mala = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\THEGAME\\rsc\\Hero\\Bohater4Karta1mala.png"));
-        this.h_Hero4Card2mala = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\THEGAME\\rsc\\Hero\\Bohater4Karta1mala.png"));
-        this.h_Hero4Card3mala = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\THEGAME\\rsc\\Hero\\Bohater4Karta1mala.png"));
-        this.h_Hero4Card4mala = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\THEGAME\\rsc\\Hero\\Bohater4Karta1mala.png"));
+        this.h_Hero4Card1mala = ImageIO.read(new File("rsc\\Hero\\Bohater4Karta1mala.png"));
+        this.h_Hero4Card2mala = ImageIO.read(new File("rsc\\Hero\\Bohater4Karta1mala.png"));
+        this.h_Hero4Card3mala = ImageIO.read(new File("rsc\\Hero\\Bohater4Karta1mala.png"));
+        this.h_Hero4Card4mala = ImageIO.read(new File("rsc\\Hero\\Bohater4Karta1mala.png"));
 
-        this.h_nothing = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\THEGAME\\rsc\\Hero\\nothing.png"));
+        this.h_nothing = ImageIO.read(new File("rsc\\Hero\\nothing.png"));
 
-        this.h_ImageHealt = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\THEGAME\\rsc\\Hero\\Healtsmall.png"));
-        this.h_ImageMana = ImageIO.read(new File("C:\\Users\\bogda\\OneDrive\\Pulpit\\JavaProjekt\\THEGAME\\rsc\\Hero\\Manasmall.png"));
+        this.h_ImageHealt = ImageIO.read(new File("rsc\\Hero\\Healtsmall.png"));
+        this.h_ImageMana = ImageIO.read(new File("rsc\\Hero\\Manasmall.png"));
 
     }
 

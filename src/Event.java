@@ -1,5 +1,6 @@
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 
@@ -26,8 +27,8 @@ public class Event extends MouseAdapter{
         this.e_hero = hero;
         this.firstScene2 = 0;
         this.firstScene3 = 0;
-    }
 
+    }
     public void mouseClicked(MouseEvent e){
         this.e_draw.repaint();
         this.setMousePosition(e);
@@ -85,6 +86,9 @@ public class Event extends MouseAdapter{
         this.e_mousePosition.x -= 7;
         this.e_mousePosition.y -= 28;
         this.e_draw.setMousePosition(this.e_mousePosition.x, this.e_mousePosition.y);
+    }
+    public void handleStartButtonClick() {
+        // obsługa kliknięcia przycisku "Start"
     }
 
     public void check(boolean MouseClick){

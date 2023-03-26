@@ -10,9 +10,10 @@ public class Draw extends JPanel {
     private LevelMap d_levelmap;
     private Gameplay d_gameplay;
     private Hero d_hero;
+    private Connect d_connect;
     private int d_fuel;
 
-    Draw(GameFrame frame, Menu menu, HeroChoose heroChoose, LevelMap levelMap, Gameplay gameplay, Hero hero) {
+    Draw(GameFrame frame, Menu menu, HeroChoose heroChoose, LevelMap levelMap, Gameplay gameplay, Hero hero, Connect connect) {
         this.d_menu = menu;
         this.d_mousePosition = new Point();
         this.d_frame = frame;
@@ -20,6 +21,7 @@ public class Draw extends JPanel {
         this.d_levelmap = levelMap;
         this.d_gameplay = gameplay;
         this.d_hero = hero;
+        this.d_connect = connect;
         this.d_fuel = 5;
     }
 
@@ -46,6 +48,53 @@ public class Draw extends JPanel {
             g.drawImage(this.d_menu.getWczytajGre(), 400, 310, null);
             g.drawImage(this.d_menu.getOpcje(), 400, 420, null);
             g.drawImage(this.d_menu.getWyjdz(), 400, 530, null);
+            g.drawImage(this.d_menu.getMulti(), 900, 200, null);
+
+            if (this.d_mousePosition.x >= 898 && this.d_mousePosition.x <= (898 + 402) && this.d_mousePosition.y > 198 && this.d_mousePosition.y <= (198 + 102)) {
+                g2D.setStroke(new BasicStroke(2f));
+                g2D.setColor(Color.GREEN);
+                g2D.drawRect(898, 198, 400, 100);
+            } else {
+                g2D.setStroke(new BasicStroke(2f));
+                g2D.setColor(Color.RED);
+                g2D.drawRect(898, 198, 400, 100);
+            }
+            if (this.d_mousePosition.x >= 398 && this.d_mousePosition.x <= (398 + 402) && this.d_mousePosition.y > 198 && this.d_mousePosition.y <= (198 + 102)) {
+                g2D.setStroke(new BasicStroke(2f));
+                g2D.setColor(Color.GREEN);
+                g2D.drawRect(398, 198, 400, 100);
+            } else {
+                g2D.setStroke(new BasicStroke(2f));
+                g2D.setColor(Color.RED);
+                g2D.drawRect(398, 198, 400, 100);
+            }
+            if (this.d_mousePosition.x >= 398 && this.d_mousePosition.x <= (398 + 402) && this.d_mousePosition.y > 308 && this.d_mousePosition.y <= (308 + 102)) {
+                g2D.setStroke(new BasicStroke(2f));
+                g2D.setColor(Color.GREEN);
+                g2D.drawRect(398, 308, 400, 100);
+            } else {
+                g2D.setStroke(new BasicStroke(2f));
+                g2D.setColor(Color.RED);
+                g2D.drawRect(398, 308, 400, 100);
+            }
+            if (this.d_mousePosition.x >= 398 && this.d_mousePosition.x <= (398 + 402) && this.d_mousePosition.y > 418 && this.d_mousePosition.y <= (418 + 102)) {
+                g2D.setStroke(new BasicStroke(2f));
+                g2D.setColor(Color.GREEN);
+                g2D.drawRect(398, 418, 400, 100);
+            } else {
+                g2D.setStroke(new BasicStroke(2f));
+                g2D.setColor(Color.RED);
+                g2D.drawRect(398, 418, 400, 100);
+            }
+            if (this.d_mousePosition.x >= 398 && this.d_mousePosition.x <= (398 + 402) && this.d_mousePosition.y > 528 && this.d_mousePosition.y <= (528 + 102)) {
+                g2D.setStroke(new BasicStroke(2f));
+                g2D.setColor(Color.GREEN);
+                g2D.drawRect(398, 528, 400, 100);
+            } else {
+                g2D.setStroke(new BasicStroke(2f));
+                g2D.setColor(Color.RED);
+                g2D.drawRect(398, 528, 400, 100);
+            }
         }
         if (this.d_frame.getScene() == 2) {
 
@@ -54,7 +103,17 @@ public class Draw extends JPanel {
             g.drawImage(this.d_heroChoose.getHero2(), 383, 200, null);
             g.drawImage(this.d_heroChoose.getHero3(), 716, 200, null);
             g.drawImage(this.d_heroChoose.getHero4(), 1049, 200, null);
-            g.drawImage(this.d_heroChoose.getPowrot(), 500, 600, null);
+            g.drawImage(this.d_heroChoose.getPowrot(), 500, 620, null);
+
+            if (this.d_mousePosition.x >= 498 && this.d_mousePosition.x <= (498 + 400) && this.d_mousePosition.y > 618 && this.d_mousePosition.y <= (618 + 100)) {
+                g2D.setStroke(new BasicStroke(2f));
+                g2D.setColor(Color.GREEN);
+                g2D.drawRect(498, 618, 400, 100);
+            } else {
+                g2D.setStroke(new BasicStroke(2f));
+                g2D.setColor(Color.RED);
+                g2D.drawRect(498, 618, 400, 100);
+            }
         }
         if (this.d_frame.getScene() == 3) {
 
@@ -64,13 +123,24 @@ public class Draw extends JPanel {
             g.drawImage(this.d_levelmap.getLevel3(), 600, 500, null);
             g.drawImage(this.d_levelmap.getLevel4(), 700, 100, null);
             g.drawImage(this.d_levelmap.getLevel5(), 1000, 200, null);
-            g.drawImage(this.d_levelmap.getPowrot(), 500, 600, null);
+            g.drawImage(this.d_levelmap.getPowrot(), 500, 620, null);
+
+            if (this.d_mousePosition.x >= 498 && this.d_mousePosition.x <= (498 + 400) && this.d_mousePosition.y > 618 && this.d_mousePosition.y <= (618 + 100)) {
+                g2D.setStroke(new BasicStroke(2f));
+                g2D.setColor(Color.GREEN);
+                g2D.drawRect(498, 618, 400, 100);
+            } else {
+                g2D.setStroke(new BasicStroke(2f));
+                g2D.setColor(Color.RED);
+                g2D.drawRect(498, 618, 400, 100);
+            }
+
             g.drawImage(this.d_levelmap.getKart1(), 1000, 310, null);
             g.drawImage(this.d_levelmap.getKart2(), 1000, 310, null);
             g.drawImage(this.d_levelmap.getKart3(), 1000, 310, null);
             g.drawImage(this.d_levelmap.getKart4(), 1000, 310, null);
             g.drawImage(this.d_levelmap.getKart5(), 1000, 310, null);
-            g.drawImage(this.d_levelmap.getArrow(), this.d_levelmap.getArrowPosX(), this.d_levelmap.getArrowPosY(), null);
+
 
             g.drawImage(this.d_levelmap.getStartImage(), 270, 170, null);
             if (this.d_levelmap.getStart() == true) {
@@ -97,9 +167,11 @@ public class Draw extends JPanel {
 
             String napis = "FUEL:" + this.d_fuel;
 
-            g.setFont(new Font("Arial", Font.PLAIN, 50));
+            g.setFont(new Font("Consolas", Font.PLAIN, 50));
             g.setColor(Color.WHITE);
             g.drawString(napis, 300, 70);
+
+            g.drawImage(this.d_levelmap.getArrow(), this.d_levelmap.getArrowPosX(), this.d_levelmap.getArrowPosY(), null);
 
         }
         if (this.d_frame.getScene() == 4) {
@@ -130,6 +202,16 @@ public class Draw extends JPanel {
             g.setFont(new Font("Consolas", Font.PLAIN, 20));
             g.setColor(Color.CYAN);
             g.drawString(napis, 250, 160);
+        }
+        if(this.d_frame.getScene() == 5){
+            this.d_connect.Enable();
+            this.d_frame.setBackground(Color.BLACK);
+            //JButton button = this.d_connect.getButton();
+            //JTextField  text = this.d_connect.getTextField();
+
+
+        }else{
+            this.d_connect.Disable();
         }
     }
 

@@ -206,8 +206,6 @@ public class Draw extends JPanel {
         if(this.d_frame.getScene() == 5){
             this.d_connect.Enable();
             this.d_frame.setBackground(Color.BLACK);
-            //JButton button = this.d_connect.getButton();
-            //JTextField  text = this.d_connect.getTextField();
 
 
         }else{
